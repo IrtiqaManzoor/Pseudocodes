@@ -1,0 +1,12 @@
+Procedure SumOfTwoNumbers
+DECLARE number1, number2, sum
+// Get the first number
+READ number1
+// Get the second number
+READ number2
+// Calculate the sum
+sum = number1 + number2
+// Display the sum
+WRITE " The sum of", number1, "and", number2, "is", sum
+// End Procedure
+
