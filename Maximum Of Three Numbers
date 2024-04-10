@@ -1,0 +1,10 @@
+// Procedure MaximumOfThreeNumbers
+Declare variables: num1, num2, num3
+If num1 > num2 and num1 > num3, then
+Set max = num1
+Else if num2 > num3, then
+Set max = num2
+Else 
+Set max = num3
+Print the value of max 
+End Procedure
