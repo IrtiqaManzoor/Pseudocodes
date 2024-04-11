@@ -1,0 +1,9 @@
+Procedure CheckEvenOrOdd
+Start
+Inpiu: num (integer)
+if num modulo 2 equals 0 then
+Display "The number is even"
+else
+Display "The number is odd"
+end if
+End Peocedure
