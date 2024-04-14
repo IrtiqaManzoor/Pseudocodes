@@ -1,0 +1,25 @@
+Procedure CheckPrime
+    Input: num (a positive integer)
+    Output: result (prime or not prime)
+    
+    // Assume num >= 2
+    if num <= 1 then
+        result = "not prime"
+        return
+    
+    // Check divisibility from 2 up to sqrt(num)
+    limit = sqrt(num)
+    is_prime = true
+    
+    for divisor from 2 to limit do
+        if num % divisor == 0 then
+            is_prime = false
+            break
+    
+    if is_prime then
+        result = "prime"
+    else
+        result = "not prime"
+    
+    return
+End Procedure
