@@ -1,0 +1,18 @@
+Procedure SwapNumbers
+    Declare Integer num1, num2, temp
+
+    Display "Enter first number: "
+    Input num1
+
+    Display "Enter second number: "
+    Input num2
+
+    Display "Before swapping: num1 = " + num1 + ", num2 = " + num2
+
+    // Swapping logic using a temporary variable
+    temp = num1
+    num1 = num2
+    num2 = temp
+
+    Display "After swapping: num1 = " + num1 + ", num2 = " + num2
+End Procedure
