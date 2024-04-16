@@ -1,0 +1,18 @@
+Procedure AreaOfRectangle
+    // Declare variables
+    Declare length
+    Declare width
+    Declare  area
+
+    // Input length and width
+    Display "Enter the length of the rectangle:"
+    Input length
+    Display "Enter the width of the rectangle:"
+    Input width
+
+    // Calculate the area
+    Set area = length * width
+
+    // Display the area
+    Display "The area of the rectangle is: ", area
+End Procedure
