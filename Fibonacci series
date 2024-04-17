@@ -1,0 +1,24 @@
+Procedure FibonacciSeries
+    Input: limit (upper limit for Fibonacci series)
+
+    // Initialize variables
+    previous <- 0
+    current <- 1
+    
+    // Print the first two Fibonacci numbers
+    Print previous
+    Print current
+    
+    // Generate Fibonacci numbers until the limit is reached
+    while current <= limit do
+        next <- previous + current
+        if next <= limit then
+            Print next
+            previous <- current
+            current <- next
+        else
+            break
+        end if
+    end while
+    
+End Procedure
