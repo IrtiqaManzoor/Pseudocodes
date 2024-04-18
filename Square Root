@@ -1,0 +1,15 @@
+Procedure SquareRoot
+    Input: num (a positive number)
+
+    // Initialize variables
+    Set guess = num / 2
+    Set error = 0.0001
+
+    // Iterate until desired accuracy is reached
+    While abs(guess * guess - num) > error
+        Set guess = (guess + num / guess) / 2
+    End While
+
+    // Output the square root
+    Output "The square root of", num, "is", guess
+End Procedure
